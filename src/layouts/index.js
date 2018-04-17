@@ -9,7 +9,7 @@ class Template extends React.Component {
     super(props)
   }
   render() {
-    console.log('this.props: ' + JSON.stringify(this.props))
+    //console.log('this.props: ' + JSON.stringify(this.props))
     const { location, children } = this.props
 
     let header = <div>

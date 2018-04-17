@@ -8,7 +8,7 @@ import get from 'lodash/get'
 
 class InfoPageTemplate extends React.Component {
   render() {
-    console.dir(this.props)
+    //console.dir(this.props)
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
 

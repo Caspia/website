@@ -5,7 +5,7 @@ import get from 'lodash/get'
 
 class BlogPostTemplate extends React.Component {
   render() {
-    console.dir(this.props)
+    //console.dir(this.props)
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const { previousNode, nextNode } = this.props.pathContext
